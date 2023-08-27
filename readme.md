@@ -8,7 +8,7 @@ An old style choose your own adventure game with a twist! Depending on which pat
 
 ## Game
 
-![Choose Your Own Riddle-culous Adventure!](images/game-screenshot.png)
+![Choose Your Own Riddle-culous Adventure](Images/game-screenshot.png)
 
 ## Future Steps
 
