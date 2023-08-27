@@ -6,4 +6,10 @@ An old style choose your own adventure game with a twist! Depending on which pat
 
 - Programming Languages: HTML, CSS, and JavaScript
 
-  >
+## Game
+
+![Choose Your Own Riddle-culous Adventure!](images/game-screenshot.png)
+
+## Future Steps
+
+- Make the game responsive
