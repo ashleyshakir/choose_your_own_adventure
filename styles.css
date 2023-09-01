@@ -3,19 +3,22 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #fffcfc;
-  height: 100vh;
 }
 .game-container{
   background-color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  padding: 80px;
+  padding: 50px;
   height: 100vh;
 }
 .logo{
-margin-bottom: 20px;
+  width: 500px;
+  margin-bottom: 20px;
+}
+img{
+  width: 100%;
 }
 #game-grid{
 height: 300px;
@@ -42,7 +45,6 @@ button:hover{
   order: 1;
   color:#e1ad37;
   width: 700px;
-  height: auto;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   text-align: center;
@@ -72,14 +74,27 @@ text-align: center;
   justify-content: center;
   align-items: center;
   padding: 20px;
-  width: 600px;
+  height: 100vh;
+}
+#answer-field{
+  width: 120px;
 }
 .story-text{
   margin-top: 30px;
-  width: 400px;
+  width: 300px;
+}
+.story-text p{
+  width: 100%;
+  padding: 10px;
+}
+.logo{
+  width: 300px;
+  margin-bottom: 0;
+  margin-top: 20px;
 }
 #game-grid{
   justify-content: flex-end;
+  height: fit-content;
 }
 
 }
